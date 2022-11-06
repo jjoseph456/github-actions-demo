@@ -22,14 +22,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.eclipse.jetty</groupId>
+                <groupId>org.eclipse.jetty:jetty-server</groupId>
                 <artifactId>jetty-project</artifactId>
                 <version>9.3.0</version>
             </dependency>
             <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-el</artifactId>
-                <version>8.5.63</version>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-project</artifactId>
+                <version>9.3.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
